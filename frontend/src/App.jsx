@@ -12,7 +12,7 @@ import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Home from './pages/home';
+import Home from './pages/Home';
 
 const App = () => {
   return (
