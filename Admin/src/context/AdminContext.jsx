@@ -6,7 +6,7 @@ export const AdminContext = createContext();
 
 const AdminContextProvider = ({children}) => {
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://prescripto-backend-j3bx.onrender.com"
 
     const [token,setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):'');
     const [doctors,setDoctors] = useState([]);
