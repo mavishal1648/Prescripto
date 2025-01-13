@@ -7,7 +7,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = ({children}) => {
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://prescripto-backend-j3bx.onrender.com"
 
     const [doctors,setDoctors] = useState([]);
 

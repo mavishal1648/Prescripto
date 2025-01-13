@@ -7,7 +7,7 @@ export const DoctorContext = createContext();
 
 const DoctorContextProvider = ({children}) => {
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL;
+    const backendUrl = "https://prescripto-backend-j3bx.onrender.com";
     const [dToken,setDToken] = useState(localStorage.getItem('dToken')?localStorage.getItem('dToken'):'');
     const [appointments,setAppointments] = useState([]);
     const [dashboardData,setDashboardData] = useState(false);
